@@ -41,7 +41,7 @@ export const education = [
         degree: "General Educational Development (GED)",
         field: "High School Equivalency",
         type: "Qualification",
-        logo: "/logos/ged.png",
+        logo: "/logos/eiec.png",
         description:
             "Completed the GED high school equivalency qualification through Educatry Academy.",
     },
