@@ -12,47 +12,66 @@ export default function Projects() {
       className="border-b border-black/10 bg-[#f8f8f6] py-20 sm:py-24 lg:py-28"
     >
       <div className="mx-auto max-w-7xl px-5 sm:px-6 lg:px-10">
-        {/* Header */}
-        <div className="mb-12 flex items-center gap-4 sm:mb-16 lg:mb-20">
-          <span className="h-px w-7 bg-black/40 sm:w-10" />
+        {/* Section Header */}
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          viewport={{ once: true, amount: 0.2 }}
+          transition={{ duration: 0.6 }}
+          className="mb-14 flex items-center gap-4 sm:mb-20 sm:gap-5"
+        >
+          <span className="h-px w-8 bg-black/40 sm:w-10" />
 
-          <p className="text-[10px] font-medium uppercase tracking-[0.2em] text-black/50 sm:text-sm">
+          <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/50 sm:text-sm sm:tracking-[0.2em]">
             04 — SELECTED WORK
           </p>
-        </div>
+        </motion.div>
 
         {/* Projects */}
-        <div className="space-y-20 sm:space-y-24 lg:space-y-28">
+        <div className="space-y-20 sm:space-y-28">
           {projects.map((project, index) => (
             <motion.article
               key={project.id}
               initial={{ opacity: 0, y: 35 }}
               whileInView={{ opacity: 1, y: 0 }}
-              viewport={{ once: true, amount: 0.15 }}
+              viewport={{ once: true, amount: 0.12 }}
               transition={{
                 duration: 0.7,
-                delay: index * 0.1,
+                delay: index * 0.08,
+                ease: [0.22, 1, 0.36, 1],
               }}
               className="group"
             >
               {/* Project Image */}
               <div className="overflow-hidden border border-black/10 bg-white">
-                <div className="relative aspect-[4/3] overflow-hidden sm:aspect-[16/9]">
+                <div className="relative flex aspect-[16/9] items-center justify-center overflow-hidden bg-[#eef0ec]">
                   <img
                     src={project.image}
-                    alt={`${project.name} project`}
-                    className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-[1.02]"
+                    alt={`${project.name} project showcase`}
+                    className="
+                      h-full
+                      w-full
+                      object-contain
+                      p-2
+                      transition-transform
+                      duration-700
+                      ease-out
+                      group-hover:scale-[1.015]
+                      sm:p-4
+                      lg:p-6
+                    "
                   />
 
-                  <div className="absolute inset-0 bg-black/0 transition-all duration-500 group-hover:bg-black/5" />
+                  {/* Subtle overlay */}
+                  <div className="pointer-events-none absolute inset-0 bg-black/0 transition-colors duration-500 group-hover:bg-black/[0.02]" />
                 </div>
               </div>
 
               {/* Project Information */}
-              <div className="mt-6 grid gap-6 sm:mt-8 sm:gap-8 lg:grid-cols-[80px_1fr_220px] xl:grid-cols-[100px_1fr_260px]">
+              <div className="mt-7 grid gap-8 sm:mt-8 lg:grid-cols-[90px_1fr_250px] lg:gap-8">
                 {/* Number */}
                 <div>
-                  <p className="text-sm font-medium tracking-[0.15em] text-black/35">
+                  <p className="text-xs font-medium tracking-[0.15em] text-black/35 sm:text-sm">
                     {project.number}
                   </p>
                 </div>
@@ -60,14 +79,14 @@ export default function Projects() {
                 {/* Main Content */}
                 <div>
                   {/* Category + Role */}
-                  <div className="flex flex-wrap items-center gap-3">
-                    <p className="text-xs font-medium uppercase tracking-[0.18em] text-black/40">
+                  <div className="flex flex-wrap items-center gap-2.5 sm:gap-3">
+                    <p className="text-[10px] font-medium uppercase tracking-[0.16em] text-black/40 sm:text-xs sm:tracking-[0.18em]">
                       {project.category}
                     </p>
 
                     <span className="h-1 w-1 rounded-full bg-black/25" />
 
-                    <p className="text-xs text-black/40">
+                    <p className="text-[10px] text-black/40 sm:text-xs">
                       {project.role}
                     </p>
                   </div>
@@ -84,15 +103,29 @@ export default function Projects() {
 
                   {/* Key Features */}
                   <div className="mt-6 sm:mt-8">
-                    <p className="mb-3 text-xs font-medium uppercase tracking-[0.18em] text-black/35">
+                    <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.16em] text-black/35 sm:text-xs sm:tracking-[0.18em]">
                       Key Features
                     </p>
 
-                    <div className="flex flex-wrap gap-2">
+                    <div className="flex max-w-4xl flex-wrap gap-2">
                       {project.highlights.map((highlight) => (
                         <span
                           key={highlight}
-                          className="border border-black/10 bg-white px-3 py-1.5 text-xs text-black/55"
+                          className="
+                            border
+                            border-black/10
+                            bg-white
+                            px-3
+                            py-1.5
+                            text-[11px]
+                            text-black/55
+                            transition-colors
+                            hover:border-black/25
+                            hover:text-black
+                            sm:px-3
+                            sm:py-2
+                            sm:text-xs
+                          "
                         >
                           {highlight}
                         </span>
@@ -102,7 +135,7 @@ export default function Projects() {
 
                   {/* Technologies */}
                   <div className="mt-6 sm:mt-7">
-                    <p className="mb-3 text-xs font-medium uppercase tracking-[0.18em] text-black/35">
+                    <p className="mb-3 text-[10px] font-medium uppercase tracking-[0.16em] text-black/35 sm:text-xs sm:tracking-[0.18em]">
                       Technologies
                     </p>
 
@@ -110,7 +143,7 @@ export default function Projects() {
                       {project.technologies.map((technology) => (
                         <span
                           key={technology}
-                          className="text-xs font-medium text-black/45"
+                          className="text-[11px] font-medium text-black/45 sm:text-xs"
                         >
                           #{technology}
                         </span>
@@ -119,21 +152,44 @@ export default function Projects() {
                   </div>
                 </div>
 
-                {/* Links */}
-                <div className="flex flex-wrap items-start gap-3 lg:justify-end">
+                {/* Project Links */}
+                <div className="flex flex-wrap items-start gap-2.5 lg:justify-end">
                   {/* Live Demo */}
                   {project.links.live && (
                     <a
                       href={project.links.live}
                       target="_blank"
-                      rel="noreferrer"
-                      className="group/link flex items-center gap-2 border border-black/15 bg-white px-4 py-2.5 text-sm text-black/70 transition-all hover:border-black/40 hover:text-black"
+                      rel="noopener noreferrer"
+                      className="
+                        group/link
+                        flex
+                        items-center
+                        gap-2
+                        border
+                        border-black/15
+                        bg-white
+                        px-3.5
+                        py-2.5
+                        text-xs
+                        text-black/70
+                        transition-all
+                        duration-300
+                        hover:border-black/40
+                        hover:text-black
+                        sm:px-4
+                        sm:text-sm
+                      "
                     >
                       <span>Live Demo</span>
 
                       <ArrowUpRight
-                        size={15}
-                        className="transition-transform group-hover/link:translate-x-0.5 group-hover/link:-translate-y-0.5"
+                        size={14}
+                        className="
+                          transition-transform
+                          duration-300
+                          group-hover/link:-translate-y-0.5
+                          group-hover/link:translate-x-0.5
+                        "
                       />
                     </a>
                   )}
@@ -143,14 +199,37 @@ export default function Projects() {
                     <a
                       href={project.links.github}
                       target="_blank"
-                      rel="noreferrer"
-                      className="group/github flex items-center gap-2 border border-black/15 bg-white px-4 py-2.5 text-sm text-black/70 transition-all hover:border-black/40 hover:text-black"
+                      rel="noopener noreferrer"
+                      className="
+                        group/github
+                        flex
+                        items-center
+                        gap-2
+                        border
+                        border-black/15
+                        bg-white
+                        px-3.5
+                        py-2.5
+                        text-xs
+                        text-black/70
+                        transition-all
+                        duration-300
+                        hover:border-black/40
+                        hover:text-black
+                        sm:px-4
+                        sm:text-sm
+                      "
                     >
                       <span>GitHub</span>
 
                       <ArrowUpRight
-                        size={15}
-                        className="transition-transform group-hover/github:translate-x-0.5 group-hover/github:-translate-y-0.5"
+                        size={14}
+                        className="
+                          transition-transform
+                          duration-300
+                          group-hover/github:-translate-y-0.5
+                          group-hover/github:translate-x-0.5
+                        "
                       />
                     </a>
                   )}
@@ -159,7 +238,7 @@ export default function Projects() {
 
               {/* Divider */}
               {index !== projects.length - 1 && (
-                <div className="mt-14 h-px bg-black/10 sm:mt-20" />
+                <div className="mt-16 h-px bg-black/10 sm:mt-20" />
               )}
             </motion.article>
           ))}
