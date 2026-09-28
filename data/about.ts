@@ -4,7 +4,7 @@ export const about = {
     title: "I build with purpose, curiosity, and structure.",
 
     paragraphs: [
-        "I’m Kaung Zan Thaw, also known as Eric Wang — a developer and product builder interested in the intersection of technology, research, and business.",
+        "I’m Kaung Zan Thaw, also known as Eric Wang a developer and product builder interested in the intersection of technology, research, and business.",
 
         "My work combines backend development, SaaS product development, UX research, business operations, and digital project management. I enjoy understanding a problem first, then turning the idea into a practical and structured digital solution.",
 
