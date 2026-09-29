@@ -8,7 +8,7 @@ export const experiences = [
         location: "Rangsit, Pathum Thani, Thailand · Remote",
         logo: "/logos/clc.png",
         description:
-            "Managed operations and executive support at CHAN LANGUAGE CENTER, driving efficiency and collaboration across multiple brands. Supported business operations, coordination, communication, and day-to-day execution.",
+            "Managed operations and executive support at CHAN LANGUAGE CENTER, driving efficiency and collaboration across multiple brands. Supported business operations, coordination, communication, research, and day-to-day execution.",
         skills: [
             "Executive Support",
             "Operations Management",
@@ -76,6 +76,26 @@ export const experiences = [
             "Social Media",
             "Creative Media",
             "Community Content",
+        ],
+    },
+
+    {
+        id: 5,
+        period: "Jan 2023 – Jun 2024",
+        title: "Frontend Developer & Backend Support",
+        organization: "EXBRAIN CO. LTD",
+        employmentType: "Full-time",
+        location: "Yangon, Myanmar · Hybrid",
+        logo: "/logos/EB.png",
+        description:
+            "Played a pivotal role in developing a Virtual Instructor-Led Training (VILT) web application. Responsibilities included integrating RESTful APIs for real-time updates, debugging frontend issues, and creating user-centric designs in Figma. This experience strengthened both frontend and backend development skills and contributed to a more interactive virtual learning experience.",
+        skills: [
+            "Frontend Development",
+            "Backend Support",
+            "Inertia.js",
+            "MySQL",
+            "RESTful API",
+            "Figma",
         ],
     },
 ];
