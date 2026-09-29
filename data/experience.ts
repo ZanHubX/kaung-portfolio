@@ -40,9 +40,27 @@ export const experiences = [
             "Web Development",
         ],
     },
-
     {
         id: 3,
+        period: "Jan 2023 – Jun 2024",
+        title: "Frontend Developer & Backend Support",
+        organization: "EXBRAIN CO. LTD",
+        employmentType: "Full-time",
+        location: "Yangon, Myanmar · Hybrid",
+        logo: "/logos/EB.png",
+        description:
+            "Played a pivotal role in developing a Virtual Instructor-Led Training (VILT) web application. Responsibilities included integrating RESTful APIs for real-time updates, debugging frontend issues, and creating user-centric designs in Figma. This experience strengthened both frontend and backend development skills and contributed to a more interactive virtual learning experience.",
+        skills: [
+            "Frontend Development",
+            "Backend Support",
+            "Inertia.js",
+            "MySQL",
+            "RESTful API",
+            "Figma",
+        ],
+    },
+    {
+        id: 4,
         period: "2025 Mar – 2025 Sep",
         title: "Researcher",
         organization: "Innovative Learning Center (ILC)",
@@ -61,7 +79,7 @@ export const experiences = [
     },
 
     {
-        id: 4,
+        id: 5,
         period: "2025 May – 2025 Oct",
         title: "Creative Media Coordinator",
         organization: "LightUp Academy (LUA)",
@@ -79,23 +97,5 @@ export const experiences = [
         ],
     },
 
-    {
-        id: 5,
-        period: "Jan 2023 – Jun 2024",
-        title: "Frontend Developer & Backend Support",
-        organization: "EXBRAIN CO. LTD",
-        employmentType: "Full-time",
-        location: "Yangon, Myanmar · Hybrid",
-        logo: "/logos/EB.png",
-        description:
-            "Played a pivotal role in developing a Virtual Instructor-Led Training (VILT) web application. Responsibilities included integrating RESTful APIs for real-time updates, debugging frontend issues, and creating user-centric designs in Figma. This experience strengthened both frontend and backend development skills and contributed to a more interactive virtual learning experience.",
-        skills: [
-            "Frontend Development",
-            "Backend Support",
-            "Inertia.js",
-            "MySQL",
-            "RESTful API",
-            "Figma",
-        ],
-    },
+    
 ];
