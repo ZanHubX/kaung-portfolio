@@ -47,7 +47,7 @@ export const experiences = [
         organization: "EXBRAIN CO. LTD",
         employmentType: "Full-time",
         location: "Yangon, Myanmar · Hybrid",
-        logo: "/logos/EB.png",
+        logo: "/logos/ebn.png",
         description:
             "Played a pivotal role in developing a Virtual Instructor-Led Training (VILT) web application. Responsibilities included integrating RESTful APIs for real-time updates, debugging frontend issues, and creating user-centric designs in Figma. This experience strengthened both frontend and backend development skills and contributed to a more interactive virtual learning experience.",
         skills: [
