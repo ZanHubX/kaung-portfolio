@@ -40,8 +40,31 @@ export const experiences = [
             "Web Development",
         ],
     },
+
     {
-        id: 3,
+  id: 3,
+  period: "2026 – Present",
+  title: "Co-Founder & Lead Backend Developer",
+  organization: "DevOrbit TechSolutions",
+  employmentType: "Co-Founder",
+  location: "Thailand · Remote",
+  logo: "/logos/DO.png",
+  description:
+    "Co-founded DevOrbit TechSolutions and lead the backend development of SaaS products and web-based technology solutions. Responsible for backend architecture, RESTful API development, database design, system integration, and technical implementation while working closely with the frontend development team.",
+  skills: [
+    "SaaS Development",
+    "Backend Development",
+    "Laravel",
+    "RESTful API",
+    "Database Design",
+    "PostgreSQL",
+    "System Architecture",
+    "Technical Leadership",
+  ],
+},
+
+    {
+        id: 4,
         period: "Jan 2023 – Jun 2024",
         title: "Frontend Developer & Backend Support",
         organization: "EXBRAIN CO. LTD",
@@ -60,7 +83,7 @@ export const experiences = [
         ],
     },
     {
-        id: 4,
+        id: 5,
         period: "2025 Mar – 2025 Sep",
         title: "Researcher",
         organization: "Innovative Learning Center (ILC)",
@@ -79,7 +102,7 @@ export const experiences = [
     },
 
     {
-        id: 5,
+        id: 6,
         period: "2025 May – 2025 Oct",
         title: "Creative Media Coordinator",
         organization: "LightUp Academy (LUA)",

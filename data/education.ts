@@ -23,17 +23,18 @@ export const education = [
             "Completed a program in Media and Communication for Transnational Citizens.",
     },
 
-    // {
-    //     id: 3,
-    //     period: "2024 Sep – 2025 Feb",
-    //     institution: "MMS IT",
-    //     degree: "Special Web Design",
-    //     field: "Frontend Focus",
-    //     type: "Certificate",
-    //     logo: "/logos/mms-it.png",
-    //     description:
-    //         "Completed specialized web design studies with a frontend development focus.",
-    // },
+    {
+        id: 3,
+        period: "2026 – Present",
+        institution: "The Imperial Law Institute",
+        degree:
+            "Double Diploma Programme in Business Law & International Business Law",
+        field: "Business Law",
+        type: "Professional Diploma",
+        logo: "/logos/ili.png",
+        description:
+            "Currently attending the Double Diploma Programme covering Business Law and International Business Law.",
+    },
     {
         id: 4,
         period: "2023",
