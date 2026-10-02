@@ -26,6 +26,11 @@ const skillGroups = [
     title: "Tools",
     items: skills.tools,
   },
+  {
+    number: "05",
+    title: "Languages",
+    items: skills.languages,
+  }
 ];
 
 export default function Skills() {

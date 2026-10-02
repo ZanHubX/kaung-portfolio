@@ -39,8 +39,8 @@ export const skills = {
     ],
 
     languages: [
-  "Burmese — Native",
-  "English — B2 (Upper-Intermediate)",
-  "Chinese — HSK 1 · HSK 2 in Progress",
-],
+        "Burmese — Native",
+        "English — B2 (Upper-Intermediate)",
+        "Chinese — HSK 1 · HSK 2 in Progress",
+    ],
 };
