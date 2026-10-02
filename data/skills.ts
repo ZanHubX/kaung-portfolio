@@ -27,6 +27,7 @@ export const skills = {
         "Digital Project Management",
         "Research",
         "Strategic Planning",
+        
     ],
 
     tools: [
@@ -36,4 +37,10 @@ export const skills = {
         "Notion",
         "Canva",
     ],
+
+    languages: [
+  "Burmese — Native",
+  "English — B2 (Upper-Intermediate)",
+  "Chinese — HSK 1 · HSK 2 in Progress",
+],
 };
