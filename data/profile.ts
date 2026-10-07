@@ -24,5 +24,5 @@ export const profile = {
     about: "/images/profile-about.jpg",
   },
 
-  cv: "/Kaung-Zan-Thaw-CV.pdf",
+  cv: "/Kaung_Zan_Thaw.pdf",
 };
