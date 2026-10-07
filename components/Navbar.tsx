@@ -48,7 +48,7 @@ export default function Navbar() {
 
           {/* DESKTOP CV */}
           <a
-            href="/Kaung-Zan-Thaw-CV.pdf"
+            href="/Kaung_Zan_Thaw.pdf"
             download
             className="hidden items-center gap-2 rounded-lg bg-[#151515] px-4 py-2.5 text-sm font-medium text-white transition hover:bg-black md:flex"
           >
@@ -120,7 +120,7 @@ export default function Navbar() {
 
                 {/* Mobile CV */}
                 <a
-                  href="/Kaung-Zan-Thaw-CV.pdf"
+                  href="/Kaung_Zan_Thaw.pdf"
                   download
                   onClick={() => setIsOpen(false)}
                   className="mt-4 flex items-center justify-center gap-2 bg-[#151515] px-4 py-3.5 text-sm font-medium text-white"
