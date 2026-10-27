@@ -37,6 +37,17 @@ export const education = [
     },
     {
         id: 4,
+        period: "2026 – Present",
+        institution: "Strategy First International College",
+        degree: "Essential Skills for Business Careers (CSR)",
+        field: "Business & Professional Development",
+        type: "Online Course Program",
+        logo: "/logos/sfu.png",
+        description:
+            "Currently attending an online course focused on essential skills for business careers and professional development.",
+    },
+    {
+        id: 5,
         period: "2023",
         institution: "Educatry International Education Center",
         degree: "General Educational Development (GED)",
@@ -47,7 +58,7 @@ export const education = [
             "Completed the GED high school equivalency qualification through Educatry Academy.",
     },
     {
-        id: 5,
+        id: 6,
         period: "2021 – 2022",
         institution: "Ex;Brain Education",
         degree: "Web Development",
