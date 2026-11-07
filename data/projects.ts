@@ -65,10 +65,45 @@ export const projects = [
             github: "",
         },
     },
-
     {
         id: 3,
         number: "03",
+        name: "Whiskers & Whispers Arcana",
+        category: "Tarot Booking Platform",
+        role: "Full-Stack Developer",
+        image: "/images/Whiskers.png",
+
+        description:
+            "A real-world tarot booking platform that allows customers to explore reading packages, submit booking requests, and complete manual payments through a structured booking and verification workflow.",
+
+        highlights: [
+            "Tarot reading package management",
+            "Customer booking workflow",
+            "Manual payment integration",
+            "Private payment proof uploads",
+            "Admin booking management",
+            "Payment method management",
+            "Payment approval and rejection workflow",
+        ],
+
+        technologies: [
+            "React",
+            "TypeScript",
+            "Vite",
+            "Laravel",
+            "PostgreSQL",
+            "REST API",
+        ],
+
+        links: {
+            live: "https://whiskers-arcana.vercel.app/",
+            github: "",
+        },
+    },
+
+    {
+        id: 4,
+        number: "04",
         name: "CostMate",
         category: "Expense Tracker",
         role: "Product Builder",
