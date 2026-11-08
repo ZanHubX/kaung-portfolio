@@ -87,7 +87,7 @@ export const experiences = [
         period: "2025 Mar – 2025 Sep",
         title: "Researcher",
         organization: "Innovative Learning Center (ILC)",
-        employmentType: "Volunteer",
+        employmentType: "Part-Time",
         location: "Remote",
         logo: "/logos/ilc.png",
         description:
@@ -106,7 +106,7 @@ export const experiences = [
         period: "2025 May – 2025 Oct",
         title: "Creative Media Coordinator",
         organization: "LightUp Academy (LUA)",
-        employmentType: "Volunteer",
+        employmentType: "Part-Time",
         location: "Remote",
         logo: "/logos/lua.png",
         description:
