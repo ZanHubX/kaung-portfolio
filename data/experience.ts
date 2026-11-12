@@ -1,8 +1,8 @@
 export const experiences = [
     {
         id: 1,
-        period: "Jan 2026 – Present",
-        title: "Executive Assistant to Founder | Operations & Business Development Lead",
+        period: "Dec 2025 – Sep 2026",
+        title: "Operations & Business Development Lead",
         organization: "CHAN LANGUAGE CENTER",
         employmentType: "Full-time",
         location: "Rangsit, Pathum Thani, Thailand · Remote",
