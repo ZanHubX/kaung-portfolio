@@ -11,6 +11,15 @@ export const certificates = [
     },
     {
         id: 2,
+        name: "Certificate in Essential Skills for Business Careers",
+        organization: "Strategy First International College",
+        year: "2026",
+        date: "Nov 22, 2026",
+        image: "/certificates/sfu.png",
+        link: "",
+    },
+    {
+        id: 3,
         name: "Content Writing Training Program",
         organization: "HOPE – Youth Empowerment",
         year: "2025",
@@ -18,9 +27,8 @@ export const certificates = [
         image: "/certificates/cw.png",
         link: "",
     },
-
     {
-        id: 3,
+        id: 4,
         name: "Web Development Course (Advanced)",
         organization: "Ex;brain",
         year: "2022",
@@ -28,9 +36,8 @@ export const certificates = [
         image: "/certificates/wd.png",
         link: "",
     },
-
     {
-        id: 4,
+        id: 5,
         name: "High School Equivalency Credential",
         organization:
             "Office of the State Superintendent of Education",
@@ -39,11 +46,8 @@ export const certificates = [
         image: "/certificates/ged.png",
         link: "",
     },
-
-    
-
     {
-        id: 5,
+        id: 6,
         name: "Career Essentials in GitHub Professional Certificate",
         organization: "LinkedIn Learning × GitHub",
         year: "2024",
@@ -51,9 +55,8 @@ export const certificates = [
         image: "/certificates/lk.png",
         link: "",
     },
-
     {
-        id: 6,
+        id: 7,
         name: "Build Web Apps with Vue JS 3 & Firebase",
         organization: "Udemy",
         year: "2024",
@@ -61,24 +64,13 @@ export const certificates = [
         image: "/certificates/vue.png",
         link: "",
     },
-
     {
-        id: 7,
+        id: 8,
         name: "EnglishScore Core Skills Test",
         organization: "British Council",
         year: "2026",
         date: "CEFR B2 · Score 453",
         image: "/certificates/bc.png",
         link: "",
-    },
-
-    {
-        id: 8,
-        name: "Certificate in Essential Skills for Business Careers",
-        organization: "Strategy First International College",
-        year: "2026",
-        date: "Nov 22, 2026",
-        image: "/certificates/sfu.jpg",
-        link: "/certificates/essential-skills-for-business-careers.pdf",
     },
 ];
