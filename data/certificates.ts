@@ -15,7 +15,7 @@ export const certificates = [
         organization: "Strategy First International College",
         year: "2026",
         date: "Nov 22, 2026",
-        image: "/certificates/sfu.png",
+        image: "/certificates/photo_2026-11-25_15-11-10.jpg",
         link: "",
     },
     {
