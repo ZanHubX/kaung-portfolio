@@ -217,20 +217,45 @@ export default function Certificates() {
                 <div className="group overflow-hidden border border-black/10 bg-white">
                   <div className="relative aspect-[4/3] overflow-hidden">
 
-                    <img
-                      src={certificate.image}
-                      alt={certificate.name}
-                      draggable={false}
-                      className="
-                        pointer-events-none
-                        h-full
-                        w-full
-                        object-cover
-                        transition-transform
-                        duration-700
-                        group-hover:scale-[1.02]
-                      "
-                    />
+                    {certificate.link ? (
+                      <a
+                        href={certificate.link}
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        aria-label={`View certificate: ${certificate.name}`}
+                        className="block h-full w-full"
+                      >
+                        <img
+                          src={certificate.image}
+                          alt={certificate.name}
+                          draggable={false}
+                          className="
+                            pointer-events-none
+                            h-full
+                            w-full
+                            object-cover
+                            transition-transform
+                            duration-700
+                            group-hover:scale-[1.02]
+                          "
+                        />
+                      </a>
+                    ) : (
+                      <img
+                        src={certificate.image}
+                        alt={certificate.name}
+                        draggable={false}
+                        className="
+                          pointer-events-none
+                          h-full
+                          w-full
+                          object-cover
+                          transition-transform
+                          duration-700
+                          group-hover:scale-[1.02]
+                        "
+                      />
+                    )}
 
                     {/* Subtle hover overlay */}
                     <div
