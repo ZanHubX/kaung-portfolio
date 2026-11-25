@@ -71,4 +71,14 @@ export const certificates = [
         image: "/certificates/bc.png",
         link: "",
     },
+
+    {
+        id: 8,
+        name: "Certificate in Essential Skills for Business Careers",
+        organization: "Strategy First International College",
+        year: "2026",
+        date: "Nov 22, 2026",
+        image: "/certificates/sfu.png",
+        link: "/certificates/essential-skills-for-business-careers.pdf",
+    },
 ];
