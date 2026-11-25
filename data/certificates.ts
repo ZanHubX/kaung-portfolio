@@ -78,7 +78,7 @@ export const certificates = [
         organization: "Strategy First International College",
         year: "2026",
         date: "Nov 22, 2026",
-        image: "/certificates/sfu.png",
+        image: "/certificates/sfu.jpg",
         link: "/certificates/essential-skills-for-business-careers.pdf",
     },
 ];
